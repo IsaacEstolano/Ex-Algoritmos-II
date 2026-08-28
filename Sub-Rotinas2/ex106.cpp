@@ -1,3 +1,7 @@
+/*Escreva um programa em C++ que possui a função decimal, que transforma um número binário
+em um número decimal. Você deve também escrever um main que faça a chamada da função.
+Exemplo de transformação:*/
+
 #include <iostream>
 #include <math.h>
 using namespace std ;
