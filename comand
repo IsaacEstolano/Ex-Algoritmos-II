@@ -1,0 +1,3 @@
+make run EX=Recursividade/ex301
+make run EX=Arquivos/ex400
+
