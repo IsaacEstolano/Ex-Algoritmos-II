@@ -25,18 +25,18 @@ void aprovado(aluno &aluno1,fstream &arqluno){
 int main(){
     string dadoAluno;
     fstream arqALuno;
-    arqALuno.open("../alunos.csv");
+    arqALuno.open("./alunos.csv", ios::in | ios::out | ios::app);
     if(arqALuno.is_open()){
         cout<<"Arquivo abrindo";
     }
     else{
         cout<<"Arquivo nao foi aberto";
+        return 0;
     }
-
-    arqALuno<<"Isaac"<<4<<endl;
-    getline(arqALuno,stringstream);
+    arqALuno<<"Isaac"<<","<<4<<endl;
 
     aluno aluno1={"isaac",8,false};
+    arqALuno << dadoAluno;
     aprovado(aluno1,arqALuno);
     cout<<aluno1.aprovado;
     return 0;
