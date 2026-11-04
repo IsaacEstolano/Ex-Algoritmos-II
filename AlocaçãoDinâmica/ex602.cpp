@@ -1,5 +1,5 @@
 /*
-Escreva um programa que leia a quantidade n de ns, aloque um vetor de double com new[] (de 
+Escreva um programa que leia a quantidade n de notas, aloque um vetor de double com new[] (de 
 tamanho n, definido só em tempo de execução), leia as notas, imprima a média e a maior n e libere 
 o vetor com delete[]. Por que não é possível declarar double notas[n]; de forma portável?>>Porque o c++ precisa saber o tamanho em tempo de compilação para os arrays comuns
 */

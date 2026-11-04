@@ -1,3 +1,4 @@
 make run EX=Recursividade/ex301
 make run EX=Arquivos/ex400
 make run EX=Struct/ex501
+make run EX=AlocaçãoDinâmica/ex604
